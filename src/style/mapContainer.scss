@@ -1,0 +1,73 @@
+.mapContainer {
+  height: calc(100vh - 50px);
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  overflow: hidden;
+
+  svg {
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    max-width: 1280px;
+  }
+}
+
+#Departa {
+  path,
+  polygon {
+    stroke: #fff;
+    fill: hsla(0, 0, 100, 0.1);
+    stroke-width: 0.5pt;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    stroke-miterlimit: 10;
+
+    &:hover {
+      //   stroke-width: 1.5pt;
+    }
+  }
+}
+
+.imgVector {
+  opacity: 0.5;
+}
+
+.window {
+  width: 300px;
+  position: absolute;
+  top: 10px;
+
+  .top {
+    height: 20px;
+    cursor: move;
+    background: white;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+  }
+
+  &.listadoVariables {
+    left: 10px;
+
+    .inside {
+      a {
+        border: 1px solid white;
+        border-top: none;
+        padding: 5px;
+        display: block;
+        text-decoration: none;
+        color: white;
+        background: rgba(0, 0, 0, 0.2);
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.2);
+          color: #333;
+        }
+      }
+    }
+  }
+}
