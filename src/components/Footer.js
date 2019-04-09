@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="item">
-          desarrollo: <a href="">Follow the Bit</a>
+          desarrollo: <a href="http://ftb.nestorandres.com/">Follow the Bit</a>
         </div>
       </div>
     </>

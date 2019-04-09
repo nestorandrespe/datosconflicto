@@ -18,7 +18,7 @@
 #Departa {
   path,
   polygon {
-    stroke: #fff;
+    stroke: rgb(150, 150, 150);
     fill: hsla(0, 0, 100, 0.1);
     stroke-width: 0.5pt;
     stroke-linecap: round;
@@ -48,6 +48,7 @@
     background: white;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
+    border-bottom: 1px solid #333;
   }
 
   &.listadoVariables {
@@ -61,13 +62,28 @@
         display: block;
         text-decoration: none;
         color: white;
-        background: rgba(0, 0, 0, 0.2);
+        background: rgba(0, 0, 0, 0.6);
+        font-size: 14px;
 
         &:hover {
           background: rgba(255, 255, 255, 0.2);
           color: #333;
         }
+
+        &.active {
+          background: white;
+          color: #333;
+        }
       }
+    }
+  }
+
+  &.datos {
+    width: 600px;
+    right: 10px;
+
+    .inside {
+      background: rgba(0, 0, 0, 0.6);
     }
   }
 }

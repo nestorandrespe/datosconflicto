@@ -3,14 +3,23 @@ import * as d3 from "d3";
 
 import MapaVector from "./MapaVector";
 import ListadoVariables from "./ListadoVariables";
+import DatosWindow from "./DatosWindow";
 import Footer from "./Footer";
 import coordenadasDepartamentos from "./tools/coordenadasDepartamentos";
 import { moveRect } from "./tools/moveRect";
-import { organizarPorDepartamentos, colorearMapa } from "./tools/dataTools";
+import {
+  organizarPorDepartamentos,
+  colorearMapa,
+  colorearMapaResponsable,
+  limpiarMapa
+} from "./tools/dataTools";
 
 class MapContainer extends Component {
   constructor() {
     super();
+
+    this.setResponsable = this.setResponsable.bind(this);
+    this.setYear = this.setYear.bind(this);
 
     this.state = {
       loading: false,
@@ -18,7 +27,8 @@ class MapContainer extends Component {
       data_cronologico: null,
       departamento: null,
       responsable: null,
-      cronologico: false
+      cronologico: false,
+      year: null
     };
   }
 
@@ -55,30 +65,105 @@ class MapContainer extends Component {
       listadoVariables[i].addEventListener("click", () => {
         const archivo = listadoVariables[i].getAttribute("data-archivo");
         if (archivo) {
-          const url = process.env.PUBLIC_URL + "/csv/" + archivo + ".csv";
-          d3.csv(url, (error, data) => {
-            const dataset = organizarPorDepartamentos(data);
+          const url_casos =
+            process.env.PUBLIC_URL + "/csv/casos-" + archivo + ".csv";
+          const url_casos_json =
+            process.env.PUBLIC_URL + "/json/casos-" + archivo + ".json";
+          const url_victimas =
+            process.env.PUBLIC_URL + "/csv/victimas-" + archivo + ".csv";
+
+          this.setState({
+            loading: true
+          });
+          d3.json(url_casos_json, (error, data_casos) => {
+            // d3.csv(url_casos, (error, data_casos) => {
+            // d3.csv(url_victimas, (error, data_victimas) => {
+            // const dataset = organizarPorDepartamentos(data_casos);
+            const dataset = data_casos;
             this.setState({
-              data: dataset
+              data: dataset,
+              loading: false,
+              data_cronologico: null,
+              departamento: null,
+              responsable: null,
+              cronologico: false,
+              year: null
             });
+
+            console.log(data_casos);
+
+            // console.log(JSON.stringify(dataset));
+
+            // });
           });
         }
       });
     }
   }
 
-  componentDidUpdate() {
+  componentDidUpdate(prevProps, prevState) {
+    // console.log(prevState.year);
+    // console.log(this.state.year);
     if (
-      !this.state.cronologico &&
       this.state.departamento === null &&
       this.state.responsable === null &&
+      this.state.data &&
+      this.state.year === null
+    ) {
+      colorearMapa(this.state.data, 50);
+    } else if (
+      this.state.departamento === null &&
+      this.state.responsable !== null &&
       this.state.data
     ) {
-      colorearMapa(this.state.data);
+      colorearMapaResponsable(this.state.data, this.state.responsable);
+    }
+
+    if (this.state.year && this.state.responsable === null) {
+      colorearMapa(this.state.year, 50);
+    } else if (this.state.responsable !== null && this.state.year) {
+      limpiarMapa();
+    }
+  }
+
+  setResponsable(string) {
+    if (string !== "*") {
+      this.setState({
+        responsable: string
+      });
+    } else {
+      this.setState({
+        responsable: null
+      });
+    }
+  }
+
+  setYear(year) {
+    if (year) {
+      this.setState({
+        year: year
+      });
+    } else {
+      this.setState({
+        year: null
+      });
     }
   }
 
   render() {
+    let win = null;
+    if (this.state.data) {
+      win = (
+        <DatosWindow
+          setResponsable={this.setResponsable}
+          setYear={this.setYear}
+          data={this.state.data}
+          departamento={this.state.departamento}
+          responsable={this.state.responsable}
+          cronologico={this.state.cronologico}
+        />
+      );
+    }
     return (
       <>
         <div className="mapContainer">
@@ -88,6 +173,7 @@ class MapContainer extends Component {
           </svg>
 
           <ListadoVariables />
+          {win}
         </div>
         <div className="tooltip" />
         <Footer />

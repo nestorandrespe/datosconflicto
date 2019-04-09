@@ -1,0 +1,489 @@
+id,ano,dept,municipio,presuntoRes,desPresuntoRes,num
+1780,1983,Antioquia,SAN PEDRO DE URAB?,Guerrilla,EPL,2
+2047,1985,QUINDIO,G�NOVA,Guerrilla,M-19,19
+2693,1987,Huila,ISNOS,Guerrilla,Quint�n Lame,7
+3350,1988,Santander,CARCAS?,Guerrilla,ELN,2
+5860,1992,Cesar,GONZ?LEZ,Grupo Armado No Dirimido,,0
+6852,1992,Norte de Santander,TEORAMA,Guerrilla,FARC,3
+8127,1994,Antioquia,ANGOSTURA,Guerrilla,FARC,5
+10902,1997,Chocó,BAGAD?,Guerrilla,ELN,6
+11932,1997,Santander,MOGOTES,Guerrilla,ELN,6
+13041,1999,Boyacá,TASCO,Guerrilla,FARC,0
+13199,1999,Norte de Santander,SARDINATA,Guerrilla,ELN,1
+13865,1999,Tolima,SANTA ISABEL,Guerrilla,ELN,1
+13973,2000,Cauca,SU?REZ,Guerrilla,FARC,1
+16540,2001,Cauca,ALMAGUER,Guerrilla,FARC,1
+16549,2001,Caquetá,LA MONTA�ITA,Guerrilla,FARC,1
+24926,2006,Tolima,CASABIANCA,Guerrilla,FARC,0
+34578,0,SIN INFORMACION,SIN INFORMACION,Guerrilla,M-19,2
+34579,0,Putumayo,SAN MIGUEL,Guerrilla,FARC,12
+34580,1958,Cauca,TORIB?O,Bandolerismo,No identificado,24
+34581,1961,Meta,PUERTO L?PEZ,Bandolerismo,No Identificado,2
+34583,1965,Santander,SIMACOTA,Guerrilla,ELN,7
+34584,1965,Cauca,INZ?,Guerrilla,FARC,2
+34585,1970,Antioquia,ITUANGO,Guerrilla,No Identificada,0
+34586,1971,Cesar,GAMARRA,Guerrilla,ELN,0
+34587,1972,Bolívar,SAN PABLO,Guerrilla,ELN,1
+34588,1972,Bolívar,SAN PABLO,Guerrilla,ELN,2
+34589,1972,Antioquia,REMEDIOS,Guerrilla,ELN,1
+34590,1975,Bolívar,MORALES,Desconocido,No aplica,0
+34592,1976,Bolívar,SIMIT?,Guerrilla,ELN,3
+34594,1977,Huila,TELLO,Guerrilla,FARC,0
+34595,1978,Meta,VISTAHERMOSA,Guerrilla,FARC,1
+34596,1978,Córdoba,MONTEL?BANO,Guerrilla,FARC,1
+34597,1978,Córdoba,MONTEL?BANO,Guerrilla,EPL,0
+34598,1978,Córdoba,TIERRALTA,Guerrilla,EPL,1
+34599,1979,Huila,ACEVEDO,Guerrilla,FARC,4
+34600,1979,Antioquia,URAMITA,Guerrilla,FARC,0
+34601,1981,SIN INFORMACION,SIN INFORMACION,Guerrilla,M-19,6
+34602,1981,Putumayo,MOCOA,Guerrilla,M-19,2
+34603,1981,Caquetá,SOLANO,Guerrilla,Otra,0
+34604,1981,Cesar,LA JAGUA DE IBIRICO,Guerrilla,ELN,3
+34605,1981,Caquetá,SOLANO,Guerrilla,M-19,0
+34606,1982,Putumayo,VALLE DEL GUAMUEZ,Guerrilla,M-19,0
+34607,1982,Cundinamarca,CH?A,Guerrilla,M-19,0
+34608,1982,Antioquia,FRONTINO,Guerrilla,EPL,4
+34609,1982,Antioquia,VALDIVIA,Guerrilla,FARC,0
+34610,1982,Santander,SAN BENITO,Guerrilla,FARC,0
+34611,1983,Cauca,TORIB?O,Guerrilla,FARC,6
+34613,1983,Boyacá,PAUNA,Guerrilla,FARC,0
+34614,1983,Caldas,LA DORADA,Guerrilla,No Identificada,2
+34615,1983,Antioquia,VEGACH?,Guerrilla,FARC,3
+34616,1983,Caquetá,SIN INFORMACION,Guerrilla,M-19,0
+34617,1983,Antioquia,EL BAGRE,Guerrilla,FARC,3
+34618,1983,Antioquia,MACEO,Guerrilla,FARC,0
+34619,1983,Santander,AGUADA,Guerrilla,FARC,4
+34620,1983,Caldas,NORCASIA,Guerrilla,FARC,0
+34621,1983,Antioquia,VEGACH?,Guerrilla,ELN,0
+34622,1983,Santander,SUAITA,Grupo Armado No Identificado,No aplica,0
+34623,1983,Cundinamarca,MOSQUERA,Guerrilla,ELN,1
+34624,1983,Santander,SUAITA,Otro,,2
+34625,1983,Huila,GARZ?N,Guerrilla,M-19,0
+34626,1983,Caldas,VICTORIA,Guerrilla,FARC,0
+34627,1983,Caldas,VICTORIA,Guerrilla,FARC,3
+34628,1983,Antioquia,PEQUE,Guerrilla,EPL,2
+34629,1984,Antioquia,SABANALARGA,Guerrilla,EPL,6
+34630,1984,Caquetá,FLORENCIA,Desconocido,No aplica,0
+34631,1984,Caquetá,FLORENCIA,Guerrilla,M-19,0
+34632,1984,Cauca,CORINTO,Guerrilla,M-19,1
+34633,1984,Cundinamarca,ZIPAC?N,Guerrilla,M-19,0
+34634,1984,Huila,ACEVEDO,Guerrilla,M-19,0
+34635,1984,Antioquia,GIRALDO,Guerrilla,EPL,3
+34636,1984,Antioquia,BURITIC?,Guerrilla,EPL,4
+34637,1984,Valle del Cauca,YUMBO,Guerrilla,M-19,10
+34638,1984,Valle del Cauca,YUMBO,Guerrilla,Otra,46
+34639,1985,Cauca,MIRANDA,Guerrilla,Otra,14
+34640,1985,Cauca,Santander DE QUILICHAO,Guerrilla,Otra,20
+34641,1985,Bolívar,ACH?,Guerrilla,Otra,1
+34642,1985,Cauca,TORIB?O,Guerrilla,Otra,10
+34644,1985,Antioquia,C?CERES,Guerrilla,ELN,0
+34646,1985,Tolima,RIOBLANCO,Guerrilla,M-19,4
+34647,1985,Tolima,RIOBLANCO,Guerrilla,M-19,0
+34648,1985,Antioquia,URRAO,Guerrilla,Otra,5
+34649,1985,Cauca,TOTOR?,Guerrilla,Otra,1
+34650,1985,Antioquia,ZARAGOZA,Guerrilla,ELN,2
+34651,1986,Cauca,TORIB?O,Guerrilla,M-19,1
+34652,1986,Antioquia,CARAMANTA,Guerrilla,No Identificada,1
+34653,1986,Cauca,CAJIB?O,Otro,,4
+34654,1986,Cundinamarca,NEMOC?N,Guerrilla,M-19,4
+34655,1986,Santander,CIMITARRA,Otro,,9
+34656,1986,Antioquia,ANDES,Guerrilla,EPL,2
+34657,1986,Antioquia,SAN PEDRO DE LOS MILAGROS,Guerrilla,Otra,5
+34658,1986,Antioquia,BETANIA,Guerrilla,ELN,0
+34659,1986,Antioquia,SOPETR?N,Guerrilla,Otra,2
+34661,1986,Bolívar,SAN MART?N DE LOBA,Guerrilla,Otra,7
+34662,1987,Antioquia,MUTAT?,Guerrilla,FARC,1
+34664,1987,Arauca,PUERTO ROND?N,Guerrilla,ELN,3
+34665,1987,Antioquia,ARGELIA,Guerrilla,ELN,1
+34666,1987,Huila,ACEVEDO,Guerrilla,FARC,3
+34667,1987,Tolima,ORTEGA,Guerrilla,Coordinadora Nacional Guerrillera,0
+34668,1987,Caldas,Risaralda,Guerrilla,EPL,2
+34669,1987,Antioquia,CA�ASGORDAS,Guerrilla,EPL,2
+34670,1988,Cauca,L?PEZ DE MICAY,Guerrilla,FARC,4
+34671,1988,Antioquia,YOLOMB?,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,1
+34672,1988,Norte de Santander,C?CHIRA,Guerrilla,ELN,2
+34673,1988,Antioquia,JERIC?,Guerrilla,EPL,1
+34674,1988,Meta,FUENTE DE ORO,Guerrilla,FARC,2
+34675,1988,Cesar,PELAYA,Agente del Estado,Ej�rcito Nacional,4
+34676,1988,Cauca,CALDONO,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,3
+34677,1988,Huila,GARZ?N,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,7
+34678,1988,Antioquia,ITUANGO,Guerrilla,FARC,0
+34679,1988,Cesar,CHIRIGUAN?,Guerrilla,ELN,0
+34680,1988,Vaupés,MIT?,Guerrilla,FARC,10
+34681,1988,Cesar,GONZ?LEZ,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,1
+34683,1988,Magdalena,PLATO,Guerrilla,ELN,0
+34685,1988,Antioquia,VALPARA?SO,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,3
+34686,1988,Antioquia,GRANADA,Guerrilla,Otra,0
+34687,1988,Antioquia,SAN VICENTE FERRER,Guerrilla,ELN,2
+34688,1988,Cauca,LA SIERRA,Guerrilla,M-19,8
+34689,1988,Norte de Santander,CHITAG?,Guerrilla,ELN,0
+34690,1988,Córdoba,TIERRALTA,Guerrilla,Coordinadora Nacional Guerrillera,38
+34691,1988,Huila,SANTA MAR?A,Guerrilla,FARC,0
+34692,1988,Magdalena,SANTA MARTA,Guerrilla,FARC,5
+34693,1988,Bolívar,SAN PABLO,Guerrilla,FARC,0
+34694,1988,Santander,PUERTO WILCHES,Guerrilla,FARC,1
+34695,1988,Valle del Cauca,FLORIDA,Guerrilla,FARC,1
+34696,1988,Boyacá,CHITA,Guerrilla,ELN,6
+34697,1988,Santander,TONA,Guerrilla,ELN,1
+34698,1988,Antioquia,LA UNI?N,Guerrilla,EPL,0
+34699,1988,Antioquia,SAN ANDR�S DE CUERQU?A,Guerrilla,EPL,0
+34700,1988,Bolívar,SIMIT?,Guerrilla,FARC,7
+34701,1989,Cauca,SAN SEBASTI?N,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,5
+34702,1989,Antioquia,LA UNI?N,Guerrilla,ELN,0
+34703,1989,Norte de Santander,C?CHIRA,Guerrilla,ELN,2
+34706,1990,Antioquia,MUTAT?,Grupo Armado No Dirimido,,4
+34707,2000,Huila,COLOMBIA,Guerrilla,FARC,5
+34708,1990,Putumayo,SIBUNDOY,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,5
+34709,1990,Putumayo,SAN FRANCISCO,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,2
+34710,1990,Norte de Santander,SAN CALIXTO,Guerrilla,ELN,14
+34711,1990,Cauca,EL TAMBO,Guerrilla,FARC,1
+34712,1990,Sucre,CHAL?N,Guerrilla,ELN,0
+34713,1990,Córdoba,VALENCIA,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,0
+34714,1990,Casanare,HATO COROZAL,Guerrilla,FARC,2
+34716,1990,Antioquia,SAN CARLOS,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,2
+34717,1990,Cesar,SAN DIEGO,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,8
+34718,1990,Boyacá,CAMPOHERMOSO,Guerrilla,FARC,4
+34719,1991,Norte de Santander,SAN CALIXTO,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,0
+34720,1991,Valle del Cauca,FLORIDA,Guerrilla,FARC,2
+34721,1991,Norte de Santander,ARBOLEDAS,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,0
+34722,1991,Guaviare,EL RETORNO,Guerrilla,FARC,1
+34723,1991,Cauca,EL TAMBO,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,1
+34724,1991,Valle del Cauca,CANDELARIA,Guerrilla,FARC,7
+34725,1991,Santander,SANTA HELENA DEL OP?N,Guerrilla,FARC,3
+34726,1991,Antioquia,GUADALUPE,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,3
+34727,1991,Huila,ISNOS,Guerrilla,FARC,0
+34728,1991,Santander,CHARTA,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,1
+34729,1991,Casanare,T?MARA,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,4
+34730,1991,Bolívar,MORALES,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,1
+34731,1991,Tolima,SAN ANTONIO,Guerrilla,FARC,0
+34732,1991,La Guajira,SAN JUAN DEL Cesar,Guerrilla,FARC,2
+34733,1991,Cauca,ALMAGUER,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,4
+34735,1991,Bolívar,SAN MART?N DE LOBA,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,5
+34736,1991,Bolívar,SANTA ROSA DEL SUR,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,6
+34737,1991,Vichada,SANTA ROSAL?A,Guerrilla,FARC,0
+34738,1991,Vichada,LA PRIMAVERA,Guerrilla,FARC,1
+34739,1991,Cauca,L?PEZ DE MICAY,Guerrilla,FARC,1
+34740,1991,Cundinamarca,PASCA,Guerrilla,FARC,0
+34741,1991,Boyacá,CHITA,Guerrilla,FARC,4
+34742,1992,Chocó,JURAD?,Guerrilla,FARC,1
+34743,1992,Antioquia,YAL?,Guerrilla,FARC,1
+34744,1992,Boyacá,EL COCUY,Guerrilla,ELN,2
+34745,1992,Cauca,PADILLA,Guerrilla,FARC,0
+34746,1992,Cesar,CHIRIGUAN?,Guerrilla,ELN,0
+34747,1992,Nariño,EL CHARCO,Guerrilla,FARC,2
+34748,1992,Antioquia,ARBOLETES,Guerrilla,FARC,4
+34749,1992,Valle del Cauca,GINEBRA,Guerrilla,FARC,0
+34750,1992,Nariño,SAN PABLO,Guerrilla,FARC,5
+34751,1993,Boyacá,TASCO,Guerrilla,Coordinadora Guerrillera Sim�n Bol�var,0
+34752,1993,Cauca,CALDONO,Guerrilla,FARC,1
+34753,1993,Nariño,SAMANIEGO,Guerrilla,FARC,0
+34754,1993,Antioquia,AMALFI,Guerrilla,ELN,7
+34755,1993,Santander,CARCAS?,Guerrilla,ELN,1
+34756,1994,Santander,FLORI?N,Guerrilla,FARC,2
+34757,1994,Norte de Santander,CUCUTILLA,Guerrilla,FARC,2
+34758,1994,Boyacá,TASCO,Guerrilla,FARC,1
+34760,1994,Antioquia,GIRALDO,Guerrilla,FARC,0
+34761,1994,Cundinamarca,GACHAL?,Guerrilla,FARC,2
+34762,1994,Antioquia,PEQUE,Guerrilla,FARC,0
+34763,1994,Casanare,PORE,Guerrilla,FARC,1
+34764,1994,Cundinamarca,PASCA,Guerrilla,FARC,3
+34765,1994,Cundinamarca,LA CALERA,Guerrilla,FARC,2
+34766,1994,Cauca,PIENDAM?,Guerrilla,FARC,4
+34769,1994,Cundinamarca,TIBACUY,Guerrilla,FARC,2
+34770,1995,Antioquia,CAICEDO,Guerrilla,FARC,2
+34771,1995,Tolima,RIOBLANCO,Guerrilla,FARC,5
+34772,1995,Antioquia,PEQUE,Guerrilla,FARC,0
+34773,1995,Casanare,T?MARA,Guerrilla,FARC,2
+34774,1995,Antioquia,ITUANGO,Guerrilla,FARC,18
+34775,1995,Antioquia,ITUANGO,Guerrilla,FARC,14
+34776,1995,Cundinamarca,FOSCA,Guerrilla,FARC,0
+34777,1995,Guaviare,MIRAFLORES,Guerrilla,FARC,27
+34778,1995,Boyacá,MONGUA,Guerrilla,FARC,0
+34779,1995,Boyacá,MONGUA,Guerrilla,FARC,0
+34781,1995,Sucre,CHAL?N,Guerrilla,FARC,0
+34782,1995,Cauca,MIRANDA,Guerrilla,"Disidencia M-19 ""Jaime Bateman Cay�n""",3
+34783,1996,Tolima,DOLORES,Guerrilla,FARC,4
+34784,1996,Nariño,SANTA B?RBARA,Guerrilla,FARC,0
+34785,1996,Valle del Cauca,FLORIDA,Guerrilla,FARC,1
+34786,1996,Córdoba,TIERRALTA,Grupo Paramilitar,Autodefensas Unidas de Colombia AUC,3
+34787,1996,Casanare,SAN LUIS DE PALENQUE,Guerrilla,FARC,3
+34788,1996,Cundinamarca,QUETAME,Guerrilla,FARC,2
+34789,1996,Tolima,SAN LUIS,Guerrilla,FARC,0
+34790,1996,Meta,GUAMAL,Guerrilla,FARC,0
+34791,1996,Antioquia,BETANIA,Guerrilla,ELN,0
+34792,1996,Antioquia,PEQUE,Guerrilla,FARC,0
+34793,1996,Santander,CAPITANEJO,Guerrilla,FARC,3
+34794,1996,Cundinamarca,GUAYABAL DE S?QUIMA,Guerrilla,FARC,1
+34795,1996,Cauca,Santander DE QUILICHAO,Guerrilla,FARC,3
+34796,1996,Boyacá,COVARACH?A,Guerrilla,FARC,0
+34797,1997,Cauca,CALOTO,Guerrilla,FARC,1
+34798,1997,Magdalena,FUNDACI?N,Guerrilla,FARC,4
+34799,1997,Boyacá,CUBAR?,Guerrilla,ELN,10
+34800,1997,Norte de Santander,SARDINATA,Guerrilla,FARC,0
+34801,1997,Cauca,CALDONO,Guerrilla,FARC,0
+34802,1997,Sucre,GALERAS,Guerrilla,Disidencia ELN,2
+34803,1997,Boyacá,LABRANZAGRANDE,Guerrilla,FARC,2
+34804,1997,Cundinamarca,GUTI�RREZ,Guerrilla,FARC,1
+34805,1997,Cauca,MIRANDA,Guerrilla,FARC,0
+34806,1997,Casanare,CH?MEZA,Guerrilla,FARC,1
+34807,1997,Cundinamarca,VENECIA,Guerrilla,FARC,1
+34809,1997,Cauca,SILVIA,Guerrilla,FARC,1
+34810,1997,Nariño,BARBACOAS,Guerrilla,FARC,6
+34811,1997,Bolívar,SIMIT?,Guerrilla,ELN,3
+34812,1997,Cauca,P?EZ,Guerrilla,FARC,0
+34813,1997,Norte de Santander,?BREGO,Guerrilla,ELN,0
+34814,1997,Cauca,PIENDAM?,Guerrilla,FARC,0
+34815,1997,Caquetá,VALPARA?SO,Guerrilla,FARC,1
+34816,1997,Cundinamarca,GACHAL?,Guerrilla,FARC,0
+34817,1997,Tolima,SANTA ISABEL,Guerrilla,FARC,0
+34818,1997,Cundinamarca,CABRERA,Guerrilla,FARC,3
+34819,1997,Putumayo,SAN MIGUEL,Guerrilla,FARC,24
+34820,1997,Antioquia,YAL?,Guerrilla,ELN,0
+34821,1997,Boyacá,PAJARITO,Guerrilla,FARC,10
+34822,1997,Cundinamarca,PUL?,Guerrilla,FARC,0
+34823,1997,Caquetá,PUERTO RICO,Guerrilla,FARC,1
+34824,1997,Cauca,BALBOA,Guerrilla,FARC,1
+34825,1997,Tolima,DOLORES,Guerrilla,FARC,0
+34826,1997,Cauca,TOTOR?,Guerrilla,FARC,4
+34827,1997,Cauca,PIENDAM?,Guerrilla,FARC,0
+34828,1997,QUINDIO,G�NOVA,Guerrilla,FARC,2
+34830,1997,Santander,GUACA,Guerrilla,No Identificada,3
+34832,1997,Cauca,CALDONO,Guerrilla,FARC,1
+34833,1998,Boyacá,G�IC?N,Guerrilla,FARC/ELN,2
+34834,1998,Boyacá,ROND?N,Guerrilla,FARC,0
+34835,1998,Cundinamarca,GAMA,Guerrilla,FARC,1
+34836,1998,Cundinamarca,NOCAIMA,Guerrilla,FARC,2
+34837,1998,Tolima,CUNDAY,Guerrilla,FARC,0
+34838,1998,Valle del Cauca,FLORIDA,Guerrilla,FARC,0
+34839,1998,Meta,PUERTO LLERAS,Guerrilla,FARC,6
+34840,1998,Nariño,EL ROSARIO,Guerrilla,FARC,0
+34841,1998,Meta,VISTAHERMOSA,Guerrilla,FARC,0
+34843,1998,Arauca,CRAVO NORTE,Guerrilla,FARC/ELN,2
+34844,1998,Norte de Santander,RAGONVALIA,Guerrilla,ELN,2
+34845,1998,Caldas,RIOSUCIO,Guerrilla,FARC,2
+34846,1998,Cundinamarca,BELTR?N,Guerrilla,FARC,1
+34847,1998,Cundinamarca,BELTR?N,Guerrilla,FARC,1
+34848,1998,Antioquia,LA UNI?N,Guerrilla,FARC,0
+34849,1998,Bolívar,MORALES,Guerrilla,No Identificada,4
+34850,1998,Santander,LAND?ZURI,Guerrilla,ELN,0
+34851,1998,Norte de Santander,EL TARRA,Guerrilla,ELN,1
+34852,1998,Tolima,CUNDAY,Guerrilla,FARC,0
+34853,1998,Valle del Cauca,JAMUND?,Guerrilla,ELN,2
+34855,1998,Cauca,PUERTO TEJADA,Guerrilla,FARC,0
+34856,1998,Cundinamarca,YACOP?,Guerrilla,FARC,0
+34857,1998,Antioquia,COCORN?,Guerrilla,ELN,3
+34858,1998,Nariño,LOS ANDES,Guerrilla,FARC,0
+34859,1998,Bolívar,SAN MART?N DE LOBA,Guerrilla,ELN,0
+34860,1998,Cauca,CAJIB?O,Guerrilla,FARC,0
+34861,1998,Cauca,CORINTO,Guerrilla,No Identificada,0
+34862,1998,Magdalena,SANTA MARTA,Guerrilla,ELN,1
+34863,1998,Risaralda,MISTRAT?,Guerrilla,FARC,15
+34864,1998,Bolívar,Córdoba,Guerrilla,FARC,1
+34865,1998,Meta,URIBE,Guerrilla,FARC,33
+34866,1998,Tolima,NATAGAIMA,Guerrilla,FARC,0
+34867,1998,La Guajira,URUMITA,Guerrilla,FARC,2
+34868,1998,Cauca,EL TAMBO,Guerrilla,FARC,0
+34869,1998,Norte de Santander,CHITAG?,Guerrilla,ELN,3
+34870,1998,Valle del Cauca,EL CERRITO,Guerrilla,"Disidencia M-19 ""Jaime Bateman Cay�n""",0
+34871,1998,Casanare,HATO COROZAL,Guerrilla,FARC,5
+34872,1998,Antioquia,DABEIBA,Guerrilla,FARC,2
+34873,1998,Cesar,CHIMICHAGUA,Guerrilla,FARC,1
+34874,1998,Cauca,ARGELIA,Guerrilla,FARC,0
+34875,1998,Cundinamarca,QUIPILE,Guerrilla,FARC,0
+34876,1998,Nariño,LEIVA,Guerrilla,FARC,1
+34877,1998,Santander,ALBANIA,Guerrilla,FARC,2
+34879,1998,Norte de Santander,HACAR?,Guerrilla,FARC,17
+34880,1998,Vaupés,MIT?,Guerrilla,FARC,46
+34881,1998,Tolima,PLANADAS,Guerrilla,FARC,31
+34882,1998,Cauca,ALMAGUER,Guerrilla,ELN,2
+34883,1998,Cauca,CALDONO,Guerrilla,FARC,0
+34884,1998,Antioquia,COCORN?,Guerrilla,FARC,0
+34885,1998,Antioquia,SAN FRANCISCO,Guerrilla,FARC,12
+34886,1998,Huila,ALGECIRAS,Guerrilla,FARC,1
+34887,1998,Nariño,SAN PABLO,Guerrilla,FARC,0
+34888,1998,Huila,SALADOBLANCO,Guerrilla,FARC,1
+34889,1998,Cesar,BECERRIL,Guerrilla,FARC,0
+34890,1998,Antioquia,FRONTINO,Guerrilla,FARC,1
+34891,1999,Cauca,CALOTO,Guerrilla,FARC,0
+34892,1999,Cesar,PUEBLO BELLO,Guerrilla,FARC,3
+34893,1999,Cundinamarca,TIBACUY,Guerrilla,FARC,2
+34894,1999,Tolima,VILLAHERMOSA,Guerrilla,ELN,0
+34895,1999,Cauca,PIENDAM?,Guerrilla,FARC,0
+34896,1999,Cauca,Santander DE QUILICHAO,Guerrilla,FARC,0
+34897,1999,Valle del Cauca,DAGUA,Guerrilla,FARC,2
+34899,1999,Antioquia,SAN FRANCISCO,Guerrilla,FARC,7
+34900,1999,Antioquia,VEGACH?,Guerrilla,FARC/ELN,2
+34901,1999,Boyacá,CHISCAS,Guerrilla,FARC,0
+34902,1999,Cauca,CAJIB?O,Guerrilla,FARC,0
+34903,1999,Cauca,MORALES,Guerrilla,FARC,0
+34904,1999,Arauca,CRAVO NORTE,Guerrilla,FARC,0
+34905,1999,Chocó,ACAND?,Guerrilla,FARC,1
+34906,1999,Antioquia,DABEIBA,Guerrilla,FARC,0
+34907,1999,Boyacá,LA UVITA,Guerrilla,FARC,1
+34908,1999,Tolima,SAN ANTONIO,Guerrilla,FARC,0
+34909,1999,Cauca,ROSAS,Guerrilla,FARC,0
+34910,1999,Tolima,SAN ANTONIO,Guerrilla,FARC,0
+34911,1999,Casanare,PORE,Guerrilla,FARC,2
+34912,1999,Cauca,SILVIA,Guerrilla,FARC,2
+34913,1999,Tolima,SAN ANTONIO,Guerrilla,FARC,0
+34914,1999,Santander,CALIFORNIA,Guerrilla,ELN,0
+34915,1999,Cesar,PUEBLO BELLO,Guerrilla,FARC,6
+34916,1999,Boyacá,MONGUA,Guerrilla,ELN,1
+34917,1999,Tolima,RIOBLANCO,Guerrilla,FARC,0
+34918,1999,Santander,CONTRATACI?N,Guerrilla,FARC,0
+34920,1999,Huila,ALGECIRAS,Guerrilla,FARC,1
+34921,1999,Meta,PUERTO LLERAS,Guerrilla,FARC,43
+34924,1999,Antioquia,Nariño,Guerrilla,FARC,19
+34926,1999,Santander,ONZAGA,Guerrilla,FARC,0
+34927,1999,Tolima,CASABIANCA,Guerrilla,ELN,1
+34928,1999,Cauca,CAJIB?O,Guerrilla,FARC,0
+34930,1999,Casanare,HATO COROZAL,Guerrilla,FARC,0
+34931,1999,Cauca,TIMB?O,Guerrilla,FARC,0
+34932,1999,Huila,BARAYA,Guerrilla,FARC,6
+34933,1999,Boyacá,PAZ DE R?O,Guerrilla,FARC,0
+34934,1999,Cundinamarca,QUIPILE,Guerrilla,FARC,0
+34936,1999,Huila,GIGANTE,Guerrilla,FARC,4
+34937,1999,Norte de Santander,EL CARMEN,Guerrilla,FARC/ELN,3
+34938,1999,Caquetá,CURILLO,Guerrilla,FARC,3
+34939,1999,Huila,ALGECIRAS,Guerrilla,FARC,6
+34941,1999,Chocó,JURAD?,Guerrilla,FARC,25
+34943,2000,Nariño,PUERRES,Guerrilla,FARC,4
+34944,2000,Nariño,Córdoba,Guerrilla,FARC,0
+34945,2000,Cauca,PAT?A,Guerrilla,FARC,0
+34946,2000,Cauca,Santander DE QUILICHAO,Guerrilla,FARC,0
+34947,2000,Tolima,ALPUJARRA,Guerrilla,FARC,0
+34948,2000,Antioquia,VIG?A DEL FUERTE,Guerrilla,FARC,33
+34950,2000,Huila,ALGECIRAS,Guerrilla,FARC,4
+34952,2000,Valle del Cauca,PRADERA,Guerrilla,FARC,0
+34953,2000,Huila,SANTA MAR?A,Guerrilla,FARC,0
+34954,2000,Bolívar,MONTECRISTO,Guerrilla,FARC,2
+34956,2000,Cauca,PUERTO TEJADA,Guerrilla,FARC,0
+34957,2000,Caldas,PENSILVANIA,Guerrilla,FARC,16
+34958,2000,Chocó,EL CARMEN DE ATRATO,Guerrilla,FARC,13
+34960,2000,Cauca,Santander DE QUILICHAO,Guerrilla,FARC,3
+34962,2000,Valle del Cauca,PALMIRA,Guerrilla,"Disidencia M-19 ""Jaime Bateman Cay�n""",0
+34971,2000,Cundinamarca,QUIPILE,Guerrilla,FARC,0
+34972,2000,Valle del Cauca,BUENAVENTURA,Guerrilla,FARC,6
+34978,2000,Nariño,ALB?N,Guerrilla,FARC,3
+34979,2000,Antioquia,YOLOMB?,Guerrilla,ELN,4
+34980,2000,Cundinamarca,GUAYABAL DE S?QUIMA,Guerrilla,FARC,2
+34981,2001,Nariño,SAN PABLO,Guerrilla,FARC,6
+34982,2001,Nariño,OLAYA HERRERA,Guerrilla,FARC,3
+34983,2001,Cauca,ALMAGUER,Guerrilla,FARC,0
+34987,2001,Huila,ALGECIRAS,Guerrilla,FARC,0
+34988,2001,Antioquia,SONS?N,Guerrilla,FARC,0
+34991,2001,Tolima,SANTA ISABEL,Guerrilla,FARC,0
+34992,2001,Tolima,ANZO?TEGUI,Guerrilla,FARC,25
+34993,2001,Sucre,LOS PALMITOS,Agente del Estado,Infanter�a de Marina,2
+34994,2001,Huila,ACEVEDO,Guerrilla,FARC,1
+34995,2001,Caquetá,LA MONTA�ITA,Guerrilla,FARC,0
+34996,2001,Nariño,ALB?N,Guerrilla,FARC,0
+34997,2001,Valle del Cauca,FLORIDA,Guerrilla,FARC,0
+34999,2001,Tolima,IBAGU�,Guerrilla,FARC,6
+35000,2001,QUINDIO,PIJAO,Guerrilla,FARC,0
+35001,2001,Caldas,RIOSUCIO,Guerrilla,FARC,1
+35002,2001,Cauca,INZ?,Guerrilla,FARC,3
+35004,2002,Nariño,ALB?N,Guerrilla,FARC,10
+35006,2002,Tolima,MURILLO,Guerrilla,FARC,0
+35007,2002,Boyacá,AQUITANIA,Guerrilla,FARC,2
+35009,2002,Nariño,FUNES,Guerrilla,FARC,4
+35011,2002,Tolima,VENADILLO,Guerrilla,FARC,0
+35012,2002,Nariño,LA CRUZ,Guerrilla,FARC,0
+35013,2002,Nariño,COL?N,Guerrilla,FARC,1
+35014,2002,Antioquia,COCORN?,Guerrilla,FARC,1
+35015,2002,Norte de Santander,TIB?,Guerrilla,FARC,1
+35016,2002,Nariño,POTOS?,Guerrilla,FARC,0
+35018,2002,Huila,OPORAPA,Guerrilla,FARC,2
+35022,2002,Nariño,CUASP?D,Guerrilla,FARC,10
+35023,2002,Nariño,LA TOLA,Guerrilla,FARC,4
+35024,2002,Caquetá,MIL?N,Guerrilla,FARC,0
+35027,2002,Bolívar,Córdoba,Guerrilla,FARC,0
+35028,2002,Tolima,CASABIANCA,Guerrilla,FARC,0
+35033,2003,Nariño,SAMANIEGO,Guerrilla,ELN,4
+35034,2003,Nariño,SAMANIEGO,Guerrilla,ELN,4
+35036,2005,Nariño,SANTACRUZ,Guerrilla,FARC/ELN,2
+35037,2005,Cauca,TORIB?O,Guerrilla,FARC,3
+35038,2005,Nariño,SAMANIEGO,Guerrilla,FARC,0
+35039,2005,Cauca,CALDONO,Guerrilla,FARC,0
+35040,2005,Chocó,SIP?,Guerrilla,FARC/ELN,10
+35041,2005,Chocó,SIP?,Guerrilla,FARC/ELN,10
+35043,2006,Caldas,MARULANDA,Guerrilla,FARC,4
+35045,2007,Tolima,IBAGU�,Guerrilla,FARC,4
+35046,2010,Huila,TERUEL,Guerrilla,FARC,0
+35048,2012,Nariño,FRANCISCO PIZARRO,Guerrilla,FARC,14
+35049,2012,Cauca,TIMBIQU?,Guerrilla,FARC,0
+35050,2012,Cauca,TORIB?O,Agente del Estado,Ej�rcito Nacional,0
+35051,2012,Cauca,ARGELIA,Guerrilla,FARC,0
+35052,2012,Cauca,BALBOA,Agente del Estado,Polic�a Nacional,0
+35053,2013,Cauca,ARGELIA,Guerrilla,ELN,0
+35054,2013,Cauca,CALOTO,Guerrilla,FARC,2
+35055,2013,Chocó,QUIBD?,Guerrilla,FARC,0
+35056,2012,Cauca,ARGELIA,Guerrilla,FARC,0
+35057,2014,Norte de Santander,SAN CALIXTO,Guerrilla,No Identificada,0
+87502,2002,Caquetá,MIL?N,Guerrilla,FARC,4
+395195,2000,Tolima,RONCESVALLES,Guerrilla,FARC,0
+395353,2002,Nariño,CUMBAL,Guerrilla,FARC,5
+396324,0,Bolívar,MORALES,Guerrilla,ELN,2
+396405,1973,Antioquia,SAN PEDRO DE URAB?,Guerrilla,FARC,5
+396438,1975,Caquetá,PUERTO RICO,Guerrilla,FARC,2
+396440,1975,Antioquia,MUTAT?,Guerrilla,FARC,3
+396452,1977,Meta,LA MACARENA,Guerrilla,FARC,2
+396531,1986,Antioquia,BELMIRA,Desconocido,No aplica,3
+396556,1987,Antioquia,ITUANGO,Guerrilla,EPL,0
+396559,1987,Sucre,GUARANDA,Guerrilla,EPL,9
+396603,1989,Chocó,LLOR?,Guerrilla,ELN,1
+396606,1989,Antioquia,SAN ANDR�S DE CUERQU?A,Guerrilla,FARC/EPL,0
+396648,1990,Caldas,CHINCHIN?,Grupo Armado No Identificado,No aplica,1
+396657,1991,Antioquia,URAMITA,Guerrilla,FARC,2
+396681,1992,Sucre,CAIMITO,Guerrilla,ELN,2
+396741,1994,Caquetá,CARTAGENA DEL CHAIR?,Guerrilla,FARC,5
+396742,1994,Huila,SALADOBLANCO,Guerrilla,FARC,0
+396768,1995,Boyacá,G?MEZA,Guerrilla,FARC,1
+396773,1996,Cauca,P?EZ,Guerrilla,FARC,2
+396850,1998,Guaviare,EL RETORNO,Guerrilla,FARC,2
+396859,1998,Nariño,ALB?N,Guerrilla,FARC,3
+396881,1999,Boyacá,EL ESPINO,Guerrilla,FARC,15
+396895,1999,Valle del Cauca,CAICEDONIA,Guerrilla,FARC,1
+396898,1999,Nariño,ALB?N,Guerrilla,FARC,4
+396919,1999,Cauca,Bolívar,Guerrilla,ELN,0
+396924,1999,Antioquia,SAN LUIS,Guerrilla,FARC,11
+396933,2000,Nariño,POTOS?,Guerrilla,FARC,1
+396977,2000,Cauca,P?EZ,Guerrilla,FARC,0
+396980,2000,Huila,ALGECIRAS,Guerrilla,FARC,2
+396991,2000,Nariño,SAN PABLO,Guerrilla,FARC,2
+396998,2000,Norte de Santander,LABATECA,Guerrilla,FARC,5
+397003,2000,Valle del Cauca,PALMIRA,Guerrilla,FARC,3
+397004,2000,Valle del Cauca,PALMIRA,Guerrilla,"Disidencia M-19 ""Jaime Bateman Cay�n""",0
+397006,2000,Cauca,MIRANDA,Guerrilla,FARC,2
+397010,2000,Cauca,CALOTO,Guerrilla,FARC,0
+397011,2000,Cauca,TIMB?O,Guerrilla,FARC,0
+397025,2000,Chocó,BAGAD?,Guerrilla,ERG,5
+397027,2000,Arauca,TAME,Guerrilla,FARC,0
+397038,2000,Nariño,SAMANIEGO,Guerrilla,ELN,0
+397039,2000,Nariño,ANCUY?,Guerrilla,ELN,0
+397048,2000,Huila,VILLAVIEJA,Guerrilla,FARC,1
+397079,2001,Tolima,SAN ANTONIO,Guerrilla,FARC,2
+397092,2001,Tolima,ATACO,Guerrilla,FARC,2
+397096,2001,Antioquia,TARAZ?,Grupo Paramilitar,Autodefensas Unidas de Colombia AUC,20
+397116,2001,Nariño,LA CRUZ,Guerrilla,FARC,0
+397120,2001,Cundinamarca,ARBEL?EZ,Guerrilla,FARC,2
+397122,2001,Cauca,Bolívar,Guerrilla,FARC,0
+397147,2001,Tolima,IBAGU�,Guerrilla,FARC,3
+397206,2002,Santander,SURAT?,Guerrilla,FARC,0
+397210,2002,Cauca,TORIB?O,Guerrilla,FARC,1
+397216,2002,Tolima,DOLORES,Guerrilla,FARC,14
+397226,2002,Cauca,EL TAMBO,Guerrilla,FARC,0
+397227,2002,Nariño,LOS ANDES,Agente del Estado,Ej�rcito Nacional,1
+397293,2003,Cauca,SILVIA,Guerrilla,FARC,0
+397313,2003,Nariño,SAMANIEGO,Guerrilla,FARC,2
+397399,2004,Norte de Santander,SAN CALIXTO,Guerrilla,FARC,0
+397452,2006,Nariño,LA LLANADA,Guerrilla,ELN,6
+397657,2010,Cauca,EL TAMBO,Guerrilla,FARC/ELN,0
+397679,2011,Cauca,CALDONO,Guerrilla,FARC,0
+397696,2012,Cauca,EL TAMBO,Guerrilla,FARC,0
+397827,2012,Cauca,SU?REZ,Guerrilla,FARC,0
+422139,2006,Tolima,CASABIANCA,Guerrilla,FARC,0
+511226,1973,Santander,FLORI?N,Guerrilla,FARC,0
+532353,1974,Huila,ALGECIRAS,Guerrilla,FARC,0
+532359,1975,Bolívar,MORALES,Guerrilla,ELN,2
+532468,1977,Antioquia,FRONTINO,Guerrilla,FARC,0
