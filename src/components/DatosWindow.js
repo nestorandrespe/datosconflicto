@@ -181,7 +181,7 @@ class DatosWindow extends Component {
 
       this.svg
         .select(".year_text")
-        .text("acumulado")
+        .text("1959 - 2017")
         .attr("x", 550);
 
       this.svg
@@ -334,7 +334,7 @@ class DatosWindow extends Component {
       .attr("x", 550)
       .attr("font-size", "15px")
       .attr("text-anchor", "middle")
-      .text("acumulado");
+      .text("1959 - 2017");
 
     for (let i = 0; i < array_responsables.length; i++) {
       this.svg
@@ -411,7 +411,9 @@ class DatosWindow extends Component {
         <div className="window datos">
           <div className="top" />
           <div className="menu">
-            <div className="item active">Responsable</div>
+            <div className="item active">
+              Número de víctimas ordenadas por responsable y cronologicamente
+            </div>
           </div>
           <div className="inside">
             <svg

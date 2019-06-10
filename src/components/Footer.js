@@ -18,12 +18,12 @@ export default function Footer() {
         </div>
         <div className="item">
           <div className="social">
-            <FacebookShareButton url="http://github.com">
+            <FacebookShareButton url="http://ftb.nestorandres.com/datos-colombia/">
               <FacebookIcon size={32} />
             </FacebookShareButton>
           </div>
           <div className="social">
-            <TwitterShareButton url="http://github.com">
+            <TwitterShareButton url="http://ftb.nestorandres.com/datos-colombia/">
               <TwitterIcon size={32} />
             </TwitterShareButton>
           </div>

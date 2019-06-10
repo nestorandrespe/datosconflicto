@@ -34,6 +34,37 @@ function getSquareSize(coordinates) {
     .setAttribute("y", mapH + boxY - boxH + 4);
 }
 
+export function getDepNombrePos(depName) {
+  const coordinates = getCoordinates(depName);
+  const mapCoordinates = getStringCoordinate(mapa_coor);
+
+  const marginLat = Math.abs(mapCoordinates.norte - mapCoordinates.sur);
+  const marginLon = mapCoordinates.este - mapCoordinates.oeste;
+
+  const marginBoxLat = Math.abs(coordinates.norte - coordinates.sur);
+  const marginBoxLon = coordinates.este - coordinates.oeste;
+
+  const mapW = 450;
+  const mapH = 620;
+
+  const boxW = (marginBoxLon / marginLon) * mapW;
+  const boxH = (marginBoxLat / marginLat) * mapH;
+
+  const boxX =
+    boxW / 2 + (-(mapCoordinates.oeste - coordinates.oeste) / marginLon) * mapW;
+  const boxY =
+    mapH -
+    boxH +
+    ((mapCoordinates.norte - coordinates.norte) / marginLat) * mapH;
+
+  const obj = {
+    x: boxX,
+    y: boxY
+  };
+
+  return obj;
+}
+
 export function getCoordinates(depName) {
   let response = {};
   for (let i = 0; i < coordenadasDepartamentos.length; i++) {

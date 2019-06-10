@@ -6,7 +6,7 @@ import ListadoVariables from "./ListadoVariables";
 import DatosWindow from "./DatosWindow";
 import Footer from "./Footer";
 import coordenadasDepartamentos from "./tools/coordenadasDepartamentos";
-import { moveRect } from "./tools/moveRect";
+import { moveRect, getDepNombrePos } from "./tools/moveRect";
 import {
   organizarPorDepartamentos,
   colorearMapa,
@@ -33,28 +33,39 @@ class MapContainer extends Component {
   }
 
   componentDidMount() {
-    const tooltip = document.getElementsByClassName("tooltip")[0];
+    const svg = d3.select("#svgMap");
+    const titulo = svg
+      .append("text")
+      .attr("class", "nombre_departamento")
+      .attr("text-anchor", "middle")
+      .attr("font-size", "14px");
 
-    document
-      .getElementsByClassName("mapContainer")[0]
-      .addEventListener("mousemove", e => {
-        tooltip.style.top = e.clientY - 50 + "px";
-        tooltip.style.left = e.clientX + "px";
-      });
+    // document
+    //   .getElementsByClassName("mapContainer")[0]
+    //   .addEventListener("mousemove", e => {
+    //     tooltip.style.top = e.clientY - 50 + "px";
+    //     tooltip.style.left = e.clientX + "px";
+    //   });
 
     const departamentos = document.getElementById("Departa").childNodes;
     for (let i = 0; i < departamentos.length; i++) {
       departamentos[i].addEventListener("mouseenter", () => {
-        tooltip.style.display = "block";
         moveRect(coordenadasDepartamentos[i][0]);
+        const pos = getDepNombrePos(coordenadasDepartamentos[i][0]);
         if (coordenadasDepartamentos[i]) {
-          tooltip.innerHTML = coordenadasDepartamentos[i][0];
-        } else tooltip.innerHTML = i + 1;
+          titulo
+            .text(coordenadasDepartamentos[i][0])
+            .attr("x", pos.x)
+            .attr("y", pos.y);
+        }
       });
 
       departamentos[i].addEventListener("mouseleave", () => {
-        tooltip.style.display = "none";
         document.getElementsByClassName("squarePos")[0].style.opacity = 0;
+        titulo
+          .text("")
+          .attr("x", -100)
+          .attr("y", -100);
       });
     }
 
@@ -90,7 +101,7 @@ class MapContainer extends Component {
               year: null
             });
 
-            console.log(data_casos);
+            // console.log(data_casos);
 
             // console.log(JSON.stringify(dataset));
 
@@ -175,7 +186,6 @@ class MapContainer extends Component {
           <ListadoVariables />
           {win}
         </div>
-        <div className="tooltip" />
         <Footer />
       </>
     );
